@@ -1,1 +1,264 @@
-type OVERLAY
+type FULL
+
+key 1 {
+  label:           '1'
+  base:            'à'
+  shift, capslock: '1'
+  ralt:            '§'
+  ralt, shift:     'À'
+  ctrl, alt, meta: none
+}
+
+key 2 {
+  label:           '2'
+  base:            'é'
+  shift, capslock: '2'
+  ralt:            '\u0301' # COMBINING ACUTE ACCENT
+  ralt, shift:     'É'
+  ctrl, alt, meta: none
+}
+
+key 3 {
+  label:           '3'
+  base:            'è'
+  shift, capslock: '3'
+  ralt:            '\u0300' # COMBINING GRAVE ACCENT
+  ralt, shift:     'È'
+  ctrl, alt, meta: none
+}
+key 4 {
+  label:           '4'
+  base:            'ê'
+  shift, capslock: '4'
+  ralt, shift:     'Ê'
+  ctrl, alt, meta: none
+}
+key 5 {
+  label:           '5'
+  base:            '('
+  shift, capslock: '5'
+  ralt:            '['
+  ctrl, alt, meta: none
+}
+key 6 {
+  label:           '6'
+  base:            ')'
+  shift, capslock: '6'
+  ralt:            ']'
+  ctrl, alt, meta: none
+}
+key 7 {
+  label:           '7'
+  base:            '‘'
+  shift, capslock: '7'
+  ctrl, alt, meta: none
+}
+key 8 {
+  label:           '8'
+  base:            '’'
+  shift, capslock: '8'
+  ralt:            '_'
+  ctrl, alt, meta: none
+}
+key 9 {
+  label:           '9'
+  base:            '«'
+  shift, capslock: '9'
+  ralt:            '“'
+  ralt, shift:     '‹'
+  ctrl, alt, meta: none
+}
+key 0 {
+  label:           '0'
+  base:            '»'
+  shift, capslock: '0'
+  ralt:            '”'
+  ralt, shift:     '›'
+  ctrl, alt, meta: none
+}
+
+key A {
+  label:           'A'
+  base:            'a'
+  shift, capslock: 'A'
+  ralt:            'æ'
+  ralt, shift:     'Æ'
+  ctrl, alt, meta: none
+}
+key Z {
+  label:           'Z'
+  base:            'z'
+  shift, capslock: 'Z'
+  ralt:            '£'
+  ctrl, alt, meta: none
+}
+key E {
+  label:           'E'
+  base:            'e'
+  shift, capslock: 'E'
+  ralt:            '\u20AC'
+  ctrl, alt, meta: none
+}
+key R {
+  label:           'R'
+  base:            'r'
+  shift, capslock: 'R'
+  ralt:            '®'
+  ctrl, alt, meta: none
+}
+key T {
+  label:           'T'
+  base:            't'
+  shift, capslock: 'T'
+  ralt:            '{'
+  ralt, shift:     '™'
+  ctrl, alt, meta: none
+}
+key Y {
+  label:           'Y'
+  base:            'y'
+  shift, capslock: 'Y'
+  ralt:            '}'
+  ctrl, alt, meta: none
+}
+key U {
+  label:           'U'
+  base:            'u'
+  shift, capslock: 'U'
+  ralt:            'ù'
+  ralt, shift:     'Ù'
+  ctrl, alt, meta: none
+}
+key I {
+  label:           'I'
+  base:            'i'
+  shift, capslock: 'I'
+  ctrl, alt, meta: none
+}
+key O {
+  label:           'O'
+  base:            'o'
+  shift, capslock: 'O'
+  ralt:            'œ'
+  ralt, shift:     'Œ'
+  ctrl, alt, meta: none
+}
+key P {
+  label:           'P'
+  base:            'p'
+  shift, capslock: 'P'
+  ralt:            '%'
+  ralt, shift:     '‰'
+  ctrl, alt, meta: none
+}
+
+key Q {
+  label:           'Q'
+  base:            'q'
+  shift, capslock: 'Q'
+  ralt:            'θ'
+  ralt, shift:     'ϴ'
+  ctrl, alt, meta: none
+}
+key S {
+  label:           'S'
+  base:            's'
+  shift, capslock: 'S'
+  ralt:            '$'
+  ctrl, alt, meta: none
+}
+key D {
+  label:           'D'
+  base:            'd'
+  shift, capslock: 'D'
+  ralt:            '$'
+  ctrl, alt, meta: none
+}
+key F {
+  label:           'F'
+  base:            'f'
+  shift, capslock: 'F'
+  ctrl, alt, meta: none
+}
+key G {
+  label:           'G'
+  base:            'g'
+  shift, capslock: 'G'
+  ctrl, alt, meta: none
+}
+key H {
+  label:           'H'
+  base:            'h'
+  shift, capslock: 'H'
+  ctrl, alt, meta: none
+}
+key J {
+  label:           'J'
+  base:            'j'
+  shift, capslock: 'J'
+  ctrl, alt, meta: none
+}
+key K {
+  label:           'K'
+  base:            'k'
+  shift, capslock: 'K'
+  ctrl, alt, meta: none
+}
+key L {
+  label:           'L'
+  base:            'l'
+  shift, capslock: 'L'
+  ralt:            '|'
+  ctrl, alt, meta: none
+}
+key M {
+  label:           'M'
+  base:            'm'
+  shift, capslock: 'M'
+  ralt:            '∞'
+  ctrl, alt, meta: none
+}
+
+key W {
+  label:           'W'
+  base:            'w'
+  shift, capslock: 'W'
+  ralt:            'ʒ'
+  ralt, shift:     'Ʒ'
+  ctrl, alt, meta: none
+}
+key X {
+  label:           'X'
+  base:            'x'
+  shift, capslock: 'X'
+  ralt:            '©'
+  ctrl, alt, meta: none
+}
+key C {
+  label:           'C'
+  base:            'c'
+  shift, capslock: 'C'
+  ralt:            'ç'
+  ralt, shift:     'Ç'
+  ctrl, alt, meta: none
+}
+key V {
+  label:           'V'
+  base:            'v'
+  shift, capslock: 'V'
+  ctrl, alt, meta: none
+}
+key B {
+  label:           'B'
+  base:            'b'
+  shift, capslock: 'B'
+  ctrl, alt, meta: none
+}
+
+key N {
+  label:           'N'
+  base:            'n'
+  shift, capslock: 'N'
+  ralt:            '\u303' # COMBINING TILDE
+  ctrl, alt, meta: none
+}
