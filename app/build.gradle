@@ -4,14 +4,14 @@ plugins {
 apply plugin: 'com.android.application'
 
 android {
-    namespace = "com.example.myapplication"
-    compileSdkVersion 36
+    namespace = "springcomp.keyboard_layouts.azerty_nf"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
-        minSdkVersion 16
+        applicationId = "springcomp.keyboard_layouts.azerty_nf"
+        minSdk = 21
         //noinspection OldTargetApi
-        targetSdkVersion 33
+        targetSdk = 33
         versionCode 1
         versionName "1.0"
     }
@@ -20,6 +20,16 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    // Customize the output APK file name for release builds
+    applicationVariants?.all { variant ->
+        variant.outputs?.all { output ->
+            if (variant.buildType.name == 'release') {
+                def baseName = "springcomp.keyboard-layouts.azerty-nf"
+                def version = variant.versionName ?: "${defaultConfig.versionName}"
+                outputFileName = "${baseName}-${version}.apk"
+            }
         }
     }
     kotlinOptions {

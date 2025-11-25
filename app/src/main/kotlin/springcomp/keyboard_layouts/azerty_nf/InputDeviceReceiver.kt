@@ -1,4 +1,4 @@
-package com.example.myapplication
+package springcomp.keyboard_layouts.azerty_nf
 
 import android.content.BroadcastReceiver
 import android.content.Context

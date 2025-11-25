@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "springcomp.keyboard-layouts.azerty-nf"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
