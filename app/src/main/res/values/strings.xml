@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">AZERTY NF-Z71 Layout</string>
+  <string name="keyboard_layouts_standard_label">AZERTY (AFNOR)</string>
+  <string name="keyboard_layout_standard_fr_fr_label">Français (FR), Standard</string>
+</resources>
