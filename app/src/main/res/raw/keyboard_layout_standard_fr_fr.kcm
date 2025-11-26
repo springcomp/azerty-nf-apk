@@ -1,6 +1,13 @@
 type FULL
 
-key 1 {
+key 68 {
+  label:           '@'
+  base:            '@'
+  shift, capslock: '#'
+  ralt:            none
+  ctrl, alt, meta: none
+}
+key 8 {
   label:           '1'
   base:            '\u00e0' # 'à' LATIN SMALL LETTER A WITH GRAVE
   shift, capslock: '1'
@@ -8,8 +15,7 @@ key 1 {
   ralt+shift:      '\u00c0' # 'À' LATIN CAPITAL LETTER A WITH GRAVE
   ctrl, alt, meta: none
 }
-
-key 2 {
+key 9 {
   label:           '2'
   base:            '\u00e9' # 'é' LATIN SMALL LETTER E WITH ACUTE
   shift, capslock: '2'
@@ -17,8 +23,7 @@ key 2 {
   ralt+shift:      '\u00c9' # 'É' LATIN CAPITAL LETTER E WITH ACUTE
   ctrl, alt, meta: none
 }
-
-key 3 {
+key 10 {
   label:           '3'
   base:            '\u00e8' # 'è' LATIN SMALL LETTER E WITH GRAVE
   shift, capslock: '3'
@@ -26,41 +31,42 @@ key 3 {
   ralt+shift:      '\u00c8' # 'È' LATIN CAPITAL LETTER E WITH GRAVE
   ctrl, alt, meta: none
 }
-key 4 {
+key 11 {
   label:           '4'
   base:            '\u00ea' # 'ê' LATIN SMALL LETTER E WITH CIRCUMFLEX
   shift, capslock: '4'
   ralt+shift:      '\u00ca' # 'Ê' LATIN CAPITAL LETTER E WITH CIRCUMFLEX
   ctrl, alt, meta: none
 }
-key 5 {
+key 12 {
   label:           '5'
   base:            '('
   shift, capslock: '5'
   ralt:            '['
   ctrl, alt, meta: none
 }
-key 6 {
+key 13 {
   label:           '6'
   base:            ')'
   shift, capslock: '6'
   ralt:            ']'
   ctrl, alt, meta: none
 }
-key 7 {
+key 14 {
   label:           '7'
   base:            '\u2018' # '‘' LEFT SINGLE QUOTATION MARK
   shift, capslock: '7'
+  ralt:            none
   ctrl, alt, meta: none
 }
-key 8 {
+key 15 {
   label:           '8'
   base:            '\u2019' # '’' RIGHT SINGLE QUOTATION MARK
   shift, capslock: '8'
   ralt:            '_'
   ctrl, alt, meta: none
 }
-key 9 {
+key 16 {
   label:           '9'
   base:            '\u00ab' # '«' LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
   shift, capslock: '9'
@@ -68,7 +74,7 @@ key 9 {
   ralt+shift:      '\u2039' # '‹' SINGLE LEFT-POINTING ANGLE QUOTATION MARK
   ctrl, alt, meta: none
 }
-key 0 {
+key 7 {
   label:           '0'
   base:            '\u00bb' # '»' RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
   shift, capslock: '0'
@@ -77,7 +83,7 @@ key 0 {
   ctrl, alt, meta: none
 }
 
-key Q {
+key 45 {
   label:           'A'
   base:            'a'
   shift, capslock: 'A'
@@ -85,28 +91,28 @@ key Q {
   ralt+shift:      '\u00c6' # 'Æ' LATIN CAPITAL LETTER AE
   ctrl, alt, meta: none
 }
-key W {
+key 51 {
   label:           'Z'
   base:            'z'
   shift, capslock: 'Z'
   ralt:            '\u00a3' # '£' POUND SIGN
   ctrl, alt, meta: none
 }
-key E {
+key 33 {
   label:           'E'
   base:            'e'
   shift, capslock: 'E'
   ralt:            '\u20AC'
   ctrl, alt, meta: none
 }
-key R {
+key 46 {
   label:           'R'
   base:            'r'
   shift, capslock: 'R'
   ralt:            '\u00ae' # '®' REGISTERED SIGN
   ctrl, alt, meta: none
 }
-key T {
+key 48 {
   label:           'T'
   base:            't'
   shift, capslock: 'T'
@@ -114,14 +120,14 @@ key T {
   ralt+shift:      '\u2122' # '™' TRADE MARK SIGN
   ctrl, alt, meta: none
 }
-key Y {
+key 53 {
   label:           'Y'
   base:            'y'
   shift, capslock: 'Y'
   ralt:            '}'
   ctrl, alt, meta: none
 }
-key U {
+key 49 {
   label:           'U'
   base:            'u'
   shift, capslock: 'U'
@@ -129,13 +135,14 @@ key U {
   ralt+shift:      '\u00d9' # 'Ù' LATIN CAPITAL LETTER U WITH GRAVE
   ctrl, alt, meta: none
 }
-key I {
+key 37 {
   label:           'I'
   base:            'i'
   shift, capslock: 'I'
+  ralt:            none
   ctrl, alt, meta: none
 }
-key O {
+key 43 {
   label:           'O'
   base:            'o'
   shift, capslock: 'O'
@@ -143,7 +150,7 @@ key O {
   ralt+shift:      '\u0152' # 'Œ' LATIN CAPITAL LIGATURE OE
   ctrl, alt, meta: none
 }
-key P {
+key 44 {
   label:           'P'
   base:            'p'
   shift, capslock: 'P'
@@ -152,7 +159,7 @@ key P {
   ctrl, alt, meta: none
 }
 
-key A {
+key 29 {
   label:           'Q'
   base:            'q'
   shift, capslock: 'Q'
@@ -160,51 +167,55 @@ key A {
   ralt+shift:      '\u03f4' # 'ϴ' GREEK CAPITAL THETA SYMBOL
   ctrl, alt, meta: none
 }
-key S {
+key 47 {
   label:           'S'
   base:            's'
   shift, capslock: 'S'
   ralt:            '$'
   ctrl, alt, meta: none
 }
-key D {
+key 32 {
   label:           'D'
   base:            'd'
   shift, capslock: 'D'
   ralt:            '$'
   ctrl, alt, meta: none
 }
-key F {
+key 34 {
   label:           'F'
   base:            'f'
   shift, capslock: 'F'
   ctrl, alt, meta: none
 }
-key G {
+key 35 {
   label:           'G'
   base:            'g'
   shift, capslock: 'G'
+  ralt:            none
   ctrl, alt, meta: none
 }
-key H {
+key 36 {
   label:           'H'
   base:            'h'
   shift, capslock: 'H'
+  ralt:            none
   ctrl, alt, meta: none
 }
-key J {
+key 38 {
   label:           'J'
   base:            'j'
   shift, capslock: 'J'
+  ralt:            none
   ctrl, alt, meta: none
 }
-key K {
+key 39 {
   label:           'K'
   base:            'k'
   shift, capslock: 'K'
+  ralt:            none
   ctrl, alt, meta: none
 }
-key L {
+key 40 {
   label:           'L'
   base:            'l'
   shift, capslock: 'L'
@@ -212,7 +223,7 @@ key L {
   ctrl, alt, meta: none
 }
 
-key Z {
+key 54 {
   label:           'W'
   base:            'w'
   shift, capslock: 'W'
@@ -220,14 +231,14 @@ key Z {
   ralt+shift:      '\u01b7' # 'Ʒ' LATIN CAPITAL LETTER EZH
   ctrl, alt, meta: none
 }
-key X {
+key 52 {
   label:           'X'
   base:            'x'
   shift, capslock: 'X'
   ralt:            '\u00a9' # '©' COPYRIGHT SIGN
   ctrl, alt, meta: none
 }
-key C {
+key 31 {
   label:           'C'
   base:            'c'
   shift, capslock: 'C'
@@ -235,26 +246,28 @@ key C {
   ralt+shift:      '\u00c7' # 'Ç' LATIN CAPITAL LETTER C WITH CEDILLA
   ctrl, alt, meta: none
 }
-key V {
+key 50 {
   label:           'V'
   base:            'v'
   shift, capslock: 'V'
+  ralt:            none
   ctrl, alt, meta: none
 }
-key B {
+key 30 {
   label:           'B'
   base:            'b'
   shift, capslock: 'B'
+  ralt:            none
   ctrl, alt, meta: none
 }
-key N {
+key 42 {
   label:           'N'
   base:            'n'
   shift, capslock: 'N'
   ralt:            '\u0303' # '~' COMBINING TILDE
   ctrl, alt, meta: none
 }
-key M {
+key 41 {
   label:           'M'
   base:            'm'
   shift, capslock: 'M'
