@@ -49,13 +49,13 @@ key 6 {
 }
 key 7 {
   label:           '7'
-  base:            '\u2018' # ''' LEFT SINGLE QUOTATION MARK
+  base:            '\u2018' # '‘' LEFT SINGLE QUOTATION MARK
   shift, capslock: '7'
   ctrl, alt, meta: none
 }
 key 8 {
   label:           '8'
-  base:            '\u2019' # ''' RIGHT SINGLE QUOTATION MARK
+  base:            '\u2019' # '’' RIGHT SINGLE QUOTATION MARK
   shift, capslock: '8'
   ralt:            '_'
   ctrl, alt, meta: none
