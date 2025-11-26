@@ -13,7 +13,7 @@ key 2 {
   label:           '2'
   base:            '\u00e9' # 'é' LATIN SMALL LETTER E WITH ACUTE
   shift, capslock: '2'
-  ralt:            '\u0301' # '́' COMBINING ACUTE ACCENT
+  ralt:            '\u0301' # '´' COMBINING ACUTE ACCENT
   ralt+shift:      '\u00c9' # 'É' LATIN CAPITAL LETTER E WITH ACUTE
   ctrl, alt, meta: none
 }
@@ -22,7 +22,7 @@ key 3 {
   label:           '3'
   base:            '\u00e8' # 'è' LATIN SMALL LETTER E WITH GRAVE
   shift, capslock: '3'
-  ralt:            '\u0300' # '̀' COMBINING GRAVE ACCENT
+  ralt:            '\u0300' # '`' COMBINING GRAVE ACCENT
   ralt+shift:      '\u00c8' # 'È' LATIN CAPITAL LETTER E WITH GRAVE
   ctrl, alt, meta: none
 }
@@ -251,7 +251,7 @@ key N {
   label:           'N'
   base:            'n'
   shift, capslock: 'N'
-  ralt:            '\u303' # COMBINING TILDE
+  ralt:            '\u0303' # '~' COMBINING TILDE
   ctrl, alt, meta: none
 }
 key M {
