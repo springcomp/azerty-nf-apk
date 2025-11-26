@@ -274,3 +274,11 @@ key 41 {
   ralt:            '\u221e' # '∞' INFINITY
   ctrl, alt, meta: none
 }
+
+key SPACE {
+  label:           ' '
+  base:            ' '
+  shift, capslock: ' '
+  ralt:            ' '
+  ctrl, alt, meta: ' '
+}
