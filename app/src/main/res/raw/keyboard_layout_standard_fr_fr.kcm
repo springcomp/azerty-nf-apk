@@ -227,15 +227,8 @@ key L {
   ralt:            '|'
   ctrl, alt, meta: none
 }
-key M {
-  label:           'M'
-  base:            'm'
-  shift, capslock: 'M'
-  ralt:            '\u221e' # '∞' INFINITY
-  ctrl, alt, meta: none
-}
 
-key W {
+key Z {
   label:           'W'
   base:            'w'
   shift, capslock: 'W'
