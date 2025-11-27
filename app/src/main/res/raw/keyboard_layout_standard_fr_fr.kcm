@@ -124,7 +124,7 @@ key E {
 }
 key R {
   label:                      'R'
-  base:                       'e'
+  base:                       'r'
   shift, capslock:            'R'
   ralt, ctrl+alt:             '\u00ae' # '®' REGISTERED SIGN
   ctrl, alt, meta:            none
