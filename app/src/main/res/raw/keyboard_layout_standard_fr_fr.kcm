@@ -1,6 +1,7 @@
 type OVERLAY
 
 key 1 {
+  number:          '1'
   label:           '1'
   base:            '\u00e0' # 'à' LATIN SMALL LETTER A WITH GRAVE
   shift, capslock: '1'
@@ -10,6 +11,7 @@ key 1 {
 }
 
 key 2 {
+  number:          '2'
   label:           '2'
   base:            '\u00e9' # 'é' LATIN SMALL LETTER E WITH ACUTE
   shift, capslock: '2'
@@ -19,6 +21,7 @@ key 2 {
 }
 
 key 3 {
+  number:          '3'
   label:           '3'
   base:            '\u00e8' # 'è' LATIN SMALL LETTER E WITH GRAVE
   shift, capslock: '3'
@@ -27,6 +30,7 @@ key 3 {
   ctrl, alt, meta: none
 }
 key 4 {
+  number:          '4'
   label:           '4'
   base:            '\u00ea' # 'ê' LATIN SMALL LETTER E WITH CIRCUMFLEX
   shift, capslock: '4'
@@ -35,6 +39,7 @@ key 4 {
   ctrl, alt, meta: none
 }
 key 5 {
+  number:          '5'
   label:           '5'
   base:            '('
   shift, capslock: '5'
@@ -42,6 +47,7 @@ key 5 {
   ctrl, alt, meta: none
 }
 key 6 {
+  number:          '6'
   label:           '6'
   base:            ')'
   shift, capslock: '6'
@@ -49,12 +55,14 @@ key 6 {
   ctrl, alt, meta: none
 }
 key 7 {
+  number:          '7'
   label:           '7'
   base:            '\u2018' # ''' LEFT SINGLE QUOTATION MARK
   shift, capslock: '7'
   ctrl, alt, meta: none
 }
 key 8 {
+  number:          '8'
   label:           '8'
   base:            '\u2019' # ''' RIGHT SINGLE QUOTATION MARK
   shift, capslock: '8'
@@ -62,6 +70,7 @@ key 8 {
   ctrl, alt, meta: none
 }
 key 9 {
+  number:          '9'
   label:           '9'
   base:            '\u00ab' # '«' LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
   shift, capslock: '9'
@@ -70,6 +79,7 @@ key 9 {
   ctrl, alt, meta: none
 }
 key 0 {
+  number:          '0'
   label:           '0'
   base:            '\u00bb' # '»' RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
   shift, capslock: '0'
@@ -217,8 +227,15 @@ key L {
   ralt:            '|'
   ctrl, alt, meta: none
 }
+key M {
+  label:           'M'
+  base:            'm'
+  shift, capslock: 'M'
+  ralt:            '\u221e' # '∞' INFINITY
+  ctrl, alt, meta: none
+}
 
-key Z {
+key W {
   label:           'W'
   base:            'w'
   shift, capslock: 'W'
