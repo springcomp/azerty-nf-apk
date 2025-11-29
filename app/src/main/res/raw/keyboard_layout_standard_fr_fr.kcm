@@ -366,6 +366,8 @@ key SLASH {
   label:                      ';'
   base:                       ';'
   shift, capslock:            '='
+  ralt, ctrl+alt:             '\u2243' # '≃' ASYMPTOTICALLY EQUAL TO
+  shift+ralt, shift+ctrl+alt: '\u2260' # '≠' NOT EQUAL TO
   ctrl, alt, meta:            none
 }
 
