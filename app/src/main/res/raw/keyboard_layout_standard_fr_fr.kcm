@@ -1,5 +1,12 @@
 type OVERLAY
 
+key GRAVE {
+  label:                      '@'
+  base:                       '@'
+  shift:                      '#'
+  ralt, ctrl+alt:             '\u0306' # '˘' COMBINING BREVE
+  shift+ralt, shift+ctrl+alt: '\u0311' #     COMBINING INVERTED BREVE
+}
 key 1 {
   number:                     '1'
   label:                      '1'
@@ -44,6 +51,7 @@ key 5 {
   base:                       '('
   shift, capslock:            '5'
   ralt, ctrl+alt:             '['
+  shift+ralt, shift+ctrl+alt: '\u030b' # '˝' COMBINING DOUBLE ACUTE ACCENT
   ctrl, alt, meta:            none
 }
 key 6 {
@@ -52,6 +60,7 @@ key 6 {
   base:                       ')'
   shift, capslock:            '6'
   ralt, ctrl+alt:             ']'
+  shift+ralt, shift+ctrl+alt: '\u030c' # '˵' COMBINING DOUBLE GRAVE ACCENT
   ctrl, alt, meta:            none
 }
 key 7 {
@@ -59,6 +68,7 @@ key 7 {
   label:                      '7'
   base:                       '\u2018' # ''' LEFT SINGLE QUOTATION MARK
   shift, capslock:            '7'
+  ralt, ctrl+alt:             '\u0304' # '¯' COMBINING MACRON
   ctrl, alt, meta:            none
 }
 key 8 {
@@ -67,6 +77,7 @@ key 8 {
   base:                       '\u2019' # ''' RIGHT SINGLE QUOTATION MARK
   shift, capslock:            '8'
   ralt, ctrl+alt:             '_'
+  shift+ralt, shift+ctrl+alt: '\u2014' # '—' EM DASH
   ctrl, alt, meta:            none
 }
 key 9 {
@@ -88,15 +99,18 @@ key 0 {
   ctrl, alt, meta: none
 }
 key MINUS {
-  label:                     '\u0027'
-  base:                      '\u0027'
-  shift, capslock:           '"'
-  ralt, ctrl+alt:            '\u00b0'
+  label:                      '\u0027' # "'" APOSTROPHE
+  base:                       '\u0027' # "'" APOSTROPHE
+  shift, capslock:            '"'
+  ralt, ctrl+alt:             '\u00b0' # '°' DEGREE SIGN
+  shift+ralt, shift+ctrl+alt: '\u030a' # '˚' COMBINING RING ABOVE
   ctrl, alt, meta:            none
 }
 key EQUALS {
-  label:                     '^'
-  base:                      '\u0302'
+  label:                      '^'
+  base:                       '\u0302' # '^' COMBINING CIRCUMFLEX
+  shift:                      '\u0308' # '¨' COMBINING DIAERESIS
+  ralt, ctrl+alt:             '\u030c' # 'ˇ' COMBINING CARON
   ctrl, alt, meta: none
 }
 
@@ -119,7 +133,7 @@ key E {
   label:                      'E'
   base:                       'e'
   shift, capslock:            'E'
-  ralt, ctrl+alt:             '\u20AC'
+  ralt, ctrl+alt:             '\u20AC' # '€' EURO SIGN
   ctrl, alt, meta:            none
 }
 key R {
@@ -156,6 +170,8 @@ key I {
   label:                      'I'
   base:                       'i'
   shift, capslock:            'I'
+  ralt, ctrl+alt:             '\u0307' # '˙' COMBINING DOT ABOVE
+  shift+ralt, shift+ctrl+alt: '\u0323' # '.' COMBINING DOT BELOW
   ctrl, alt, meta:            none
 }
 key O {
@@ -177,11 +193,16 @@ key P {
 key LEFT_BRACKET {
   label:                      '-'
   base:                       '-'
+  ralt, ctrl+alt:             '\u2013' # '−' EN DASH
+  shift+ralt, shift+ctrl+alt: '\u2212' # '‑' MINUS SIGN
   ctrl, alt, meta:            none
 }
 key RIGHT_BRACKET {
   label:                      '+'
   base:                       '+'
+  shift:                      '\u00b1' # '±' PLUS-MINUS SIGN
+  ralt, ctrl+alt:             '\u2020' # '†' DAGGER
+  shift+ralt, shift+ctrl+alt: '\u2021' # '‡' DOUBLE DAGGER
   ctrl, alt, meta:            none
 }
 
@@ -211,21 +232,22 @@ key F {
   label:                      'F'
   base:                       'f'
   shift, capslock:            'F'
-  ralt, ctrl+alt:             none
+  ralt, ctrl+alt:             '\u00a4' # '¤' CURRENCY SIGN
   ctrl, alt, meta:            none
 }
 key G {
   label:                      'G'
   base:                       'g'
   shift, capslock:            'G'
-  ralt, ctrl+alt:             none
+  ralt, ctrl+alt:             '\u00b5' # 'µ' MICRO SIGN
   ctrl, alt, meta:            none
 }
 key H {
   label:                      'H'
   base:                       'h'
   shift, capslock:            'H'
-  ralt, ctrl+alt:             none
+  ralt, ctrl+alt:             '\u017f' # 'ſ' LATIN SMALL LETTER LONG S
+  shift+ralt, shift+ctrl+alt: '\u0331' # 'ˍ' COMBINING MACRON BELOW
   ctrl, alt, meta:            none
 }
 key J {
@@ -239,7 +261,7 @@ key K {
   label:                      'K'
   base:                       'k'
   shift, capslock:            'K'
-  ralt, ctrl+alt:             none
+  ralt, ctrl+alt:             '\u0337' # '/' COMBINING SHORT SOLIDUS OVERLAY
   ctrl, alt, meta:            none
 }
 key L {
@@ -259,15 +281,17 @@ key SEMICOLON {
 key APOSTROPHE {
   label:                      '/'
   base:                       '/'
-  shift, capslock:            '\u005c'
+  shift, capslock:            '\u005c' # '\' REVERSE SOLIDUS
   ralt, ctrl+alt:             '\u00f7' # '÷' DIVISION SIGN
+  shift+ralt, shift+ctrl+alt: '\u221a' # '√' SQUARE ROOT
   ctrl, alt, meta:            none
 }
 key BACKSLASH {
   label:                      '*'
   base:                       '*'
-  shift, capslock:            '\u00bd'
+  shift, capslock:            '\u00bd' # '½' VULGAR FRACTION ONE HALF
   ralt, ctrl+alt:             '\u00d7' # '×' MULTIPLY SIGN
+  shift+ralt, shift+ctrl+alt: '\u00bc' # '¼' VULGAR FRACTION ONE QUARTER
   ctrl, alt, meta:            none
 }
 
@@ -291,21 +315,22 @@ key C {
   base:                       'c'
   shift, capslock:            'C'
   ralt, ctrl+alt:             '\u00e7' # 'ç' LATIN SMALL LETTER C WITH CEDILLA
-  shift+ralt, shift+ctrl+alt:  '\u00c7' # 'Ç' LATIN CAPITAL LETTER C WITH CEDILLA
+  shift+ralt, shift+ctrl+alt: '\u00c7' # 'Ç' LATIN CAPITAL LETTER C WITH CEDILLA
   ctrl, alt, meta:            none
 }
 key V {
   label:                      'V'
   base:                       'v'
   shift, capslock:            'V'
-  ralt, ctrl+alt:             none
+  ralt, ctrl+alt:             '\u0327' # '¸' COMBINING CEDILLA
+  shift+ralt, shift+ctrl+alt: '\u0328' # '˛' COMBINING OGONEK
   ctrl, alt, meta:            none
 }
 key B {
   label:                      'B'
   base:                       'b'
   shift, capslock:            'B'
-  ralt, ctrl+alt:             none
+  ralt, ctrl+alt:             '\u0335' # '-' COMBINING SHORT STROKE OVERLAY
   ctrl, alt, meta:            none
 }
 key N {
@@ -319,14 +344,15 @@ key M {
   label:                      '.'
   base:                       '.'
   shift, capslock:            '?'
-  ralt, ctrl+alt:             '\u00bf' # '¿'
+  ralt, ctrl+alt:             '\u00bf' # '¿' INVERTED QUESTION MARK
   ctrl, alt, meta:            none
 }
 key COMMA {
   label:                      ','
   base:                       ','
   shift, capslock:            '!'
-  ralt, ctrl+alt:             '\u00a1' # '¡' INFINITY
+  ralt, ctrl+alt:             '\u00a1' # '¡' INVERTED EXCLAMATION MARK
+  shift+ralt, shift+ctrl+alt: '\u0326' # ',' COMBINING COMMA BELOW
   ctrl, alt, meta:            none
 }
 key PERIOD {
