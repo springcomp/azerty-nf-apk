@@ -193,8 +193,9 @@ key P {
 key LEFT_BRACKET {
   label:                      '-'
   base:                       '-'
-  ralt, ctrl+alt:             '\u2013' # '−' EN DASH
-  shift+ralt, shift+ctrl+alt: '\u2212' # '‑' MINUS SIGN
+  shift:                      '\u2013' # '−' EN DASH
+  ralt, ctrl+alt:             '\u2212' # '‑' MINUS SIGN
+  shift+ralt, shift+ctrl+alt: '\u2011' # '‑' NON BREAKING HYPHEN
   ctrl, alt, meta:            none
 }
 key RIGHT_BRACKET {
